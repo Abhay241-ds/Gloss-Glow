@@ -165,7 +165,7 @@ export default function Home() {
 
       <section className="relative overflow-hidden bg-[#fdecee]">
 
-        <div className="mx-auto grid max-w-7xl items-center gap-12 px-5 py-14 sm:px-6 sm:py-16 md:min-h-[620px] md:grid-cols-2 md:gap-10 lg:px-8">
+        <div className="mx-auto grid max-w-7xl items-center gap-12 px-5 py-14 sm:px-6 sm:py-16 md:min-h-155 md:grid-cols-2 md:gap-10 lg:px-8">
 
           {/* HERO TEXT */}
 
@@ -222,11 +222,11 @@ export default function Home() {
 
             {/* Background Glow */}
 
-            <div className="absolute h-72 w-72 rounded-full bg-[#f6c5ce] blur-3xl sm:h-96 sm:w-96 md:h-[500px] md:w-[500px]" />
+            <div className="absolute h-72 w-72 rounded-full bg-[#f6c5ce] blur-3xl sm:h-96 sm:w-96 md:h-125 md:w-125" />
 
             {/* Image Container */}
 
-            <div className="relative h-[360px] w-full max-w-[320px] overflow-hidden rounded-t-[180px] bg-linear-to-b from-[#f3bfc8] to-[#fff0f0] sm:h-[420px] sm:max-w-[360px] sm:rounded-t-[210px] md:h-[450px] md:max-w-[390px] md:rounded-t-[230px] lg:h-[500px] lg:max-w-[430px] lg:rounded-t-[250px]">
+            <div className="relative h-90 w-full max-w-[320px] overflow-hidden rounded-t-[180px] bg-linear-to-b from-[#f3bfc8] to-[#fff0f0] sm:h-105 sm:max-w-90 sm:rounded-t-[210px] md:h-112.5 md:max-w-97.5 md:rounded-t-[230px] lg:h-125 lg:max-w-107.5 lg:rounded-t-[250px]">
 
               <img
                 src="https://images.unsplash.com/photo-1487412720507-e7ab37603c6f?auto=format&fit=crop&w=900&q=85"
@@ -266,7 +266,7 @@ export default function Home() {
             <img
               src="https://images.unsplash.com/photo-1522337360788-8b13dee7a37e?auto=format&fit=crop&w=800&q=85"
               alt="Beauty salon"
-              className="h-[380px] w-full object-cover sm:h-[450px] lg:h-[500px]"
+              className="h-95 w-full object-cover sm:h-112.5 lg:h-125"
             />
 
           </div>

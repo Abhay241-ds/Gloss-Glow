@@ -1,5 +1,11 @@
-import type { Metadata } from "next";
 import "./globals.css";
+import type { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: "Gloss & Glow Beauty Parlour | Modinagar",
+  description:
+    "Gloss & Glow Beauty Parlour in Modinagar. Explore our beauty, hair, makeup, skincare, nail care, waxing and spa services.",
+};
 
 import {
   Playfair_Display,
@@ -10,7 +16,6 @@ import {
 import { LanguageProvider } from "@/app/context/LanguageContext";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
-import CopyButton from "@/components/CopyButton";
 
 const playfair = Playfair_Display({
   variable: "--font-playfair",
@@ -29,11 +34,7 @@ const notoHindi = Noto_Sans_Devanagari({
   weight: ["400", "500", "600", "700"],
 });
 
-export const metadata: Metadata = {
-  title: "Gloss & Glow Beauty Parlour",
-  description:
-    "Gloss & Glow Beauty Parlour",
-};
+
 
 export default function RootLayout({
   children,
