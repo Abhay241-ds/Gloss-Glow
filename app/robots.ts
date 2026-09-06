@@ -1,6 +1,6 @@
 import type { MetadataRoute } from "next";
 
-const baseUrl = "https://gloss-glow-one.vercel.app/";
+const baseUrl = "https://gloss-glow-one.vercel.app";
 
 export default function robots(): MetadataRoute.Robots {
   return {
